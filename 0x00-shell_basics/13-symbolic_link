@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s /bin/ls.exe _ls_
+ln -s /bin/ls ./_ls_
