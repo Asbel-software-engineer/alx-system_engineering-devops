@@ -1,2 +1,2 @@
 #!/bin/bash
-mv [A-Z]* /tmp/u
+find /path/to/source/directory -type f -regex '.*/[A-Z].*' -exec mv {} /tmp/u/ \;
